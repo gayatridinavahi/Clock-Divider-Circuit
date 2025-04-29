@@ -5,6 +5,9 @@ Parameter M represent the value we want to divide original clock by and O repres
 
 # Analysing the clock division provided
 The clock divider waveform must be analysed by comparing the original clock with the the number of edges after which the resultant waveform is toggling.
+For example, if the clock is to be divided by 5, then the resultant clock must hold previous value for 5 edges before it toggles as shown below.
+![image](https://github.com/user-attachments/assets/500bb9a0-b1cf-4a5b-90ac-2aa2aaef2069)
+
 
 
 # Result 
